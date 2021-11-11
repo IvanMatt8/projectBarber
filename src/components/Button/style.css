@@ -1,0 +1,16 @@
+.button {
+  width: 240px;
+  height: 36px;
+  background: #ff9000;
+  border-radius: 10px;
+  border: none;
+  animation: go-back 1s infinite alternate;
+}
+@keyframes go-back {
+  from {
+    transform: translateY(-05px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
