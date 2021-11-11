@@ -1,10 +1,14 @@
 import React from "react";
 import "./style.css";
-
+import Button from "../../components/Button";
 import Logo from "../../assets/Logo.png";
 import IconeCadastro from "../../assets/iconeCadastro.png";
 import LogoCadastro from "../../assets/LogoCadastro.png";
 import { Link } from "react-router-dom";
+import Input from "../../components/Input";
+import { MdOutlineEmail } from "react-icons/md";
+import { FiUser } from "react-icons/fi";
+import { FiLock } from "react-icons/fi";
 
 function Register() {
   return (
@@ -18,10 +22,10 @@ function Register() {
             <a href="*">Sou Cliente</a>
             <a href="*">Sou Cabelereiro</a>
           </div>
-          <input type="text" placeholder="    Nome"></input>
-          <input type="text" placeholder="    E-mail"></input>
-          <input type="text" placeholder="    Senha"></input>
-          <button className="buttonPrimary">Cadastrar</button>
+          <Input icon={FiUser} placeholder="Nome" />
+          <Input icon={MdOutlineEmail} placeholder="E-mail" />
+          <Input icon={FiLock} placeholder="Senha" />
+          <Button text="Cadastro" />
         </div>
 
         <div>
