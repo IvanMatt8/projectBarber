@@ -1,0 +1,18 @@
+#containerInput {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 36px;
+  background: #232129;
+  border-radius: 10px;
+  color: gray;
+
+  padding: 5px;
+}
+
+input {
+  border: none;
+  outline: 0;
+  background-color: transparent;
+  margin-left: 10px;
+}
