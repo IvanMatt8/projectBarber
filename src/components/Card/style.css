@@ -1,7 +1,14 @@
 .card {
-  width: 540px;
-  height: 112px;
-  background-color: #3e3b47;
+  width: 544px;
+  height: 88px;
+  display: flex;
+  background-color: #28262e;
   color: #f4ede8;
   border-radius: 10px;
+  align-items: center;
+  gap: 60px;
+}
+
+.card img {
+  margin-left: 30px;
 }
